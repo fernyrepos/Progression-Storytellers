@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VSE_WinstonWave"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Bizarre</category>
+			</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VSE_WinstonWave"]/description</xpath>
+        <value>
+            <description>Winston is a battle-hardened combat expert, and he believes that through combat, one can find themselves for who they really are. Every day you will be attacked by enemy waves increasing in size, but you will be rewarded for each victory.\n\nAn intense wave-based survival mode.</description>
+        </value>
+    </Operation>
+</Patch>

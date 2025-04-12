@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Cassandra"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Engaging</category>
+			</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Phoebe"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>SlowPaced</category>
+ 			</li>
+       </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Randy"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Chaotic</category>
+			</li>
+        </value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StorytellerDef[defName="Phoebe"]/label</xpath>
+			<value>
+				<label>Chelsea Chillax</label>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StorytellerDef[defName="Phoebe"]/description</xpath>
+			<value>
+				<description>Chelsea gives lots of time between disasters to build your colony. But beware - at high difficulties, she'll hit as hard as anyone.</description>
+			</value>
+	</Operation>
+</Patch>

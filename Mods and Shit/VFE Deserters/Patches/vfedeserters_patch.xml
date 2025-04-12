@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFED_Damocles"]/description</xpath>
+        <value>
+            <description>Damocles knows that the only way to defeat the Empire is to tread the fine line between all out war and espionage. Only those against tryany will prevail.\n\nTo hell with discretion, Damocles only sends good events if the Empire is well aware of your desertion. Keep your visbility high, but be wary of the Divine Inferno.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFED_Damocles"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Brutal</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>

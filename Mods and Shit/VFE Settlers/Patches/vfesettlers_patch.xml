@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFES_DD"]/description</xpath>
+        <value>
+            <description>Diego believes the best stories are the violent ones, facing unfavourable odds and going down in a blaze of glory with exploding muffalos and drunks.\n\nStories told by Diego progress in reverse, starting out dire and unpredictable from the get-go, alongside new bounty hunting and caravanning quests.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFES_DD"]</xpath>
+        <value>
+        <li Class="ProgressionStorytellers.StorytellerExtension">
+            <category>Chaotic</category>
+        </li>
+        </value>
+    </Operation>
+</Patch>

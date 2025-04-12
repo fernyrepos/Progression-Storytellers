@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VSE_PerryPersistent"]/description</xpath>
+        <value>
+            <description>Perry Persistent conveys a story the same way he handles his investigations - with determination and attention to details. Each day can lead him closer to the end of his investigation.\nWith Perry, events occur nearly every day. Colony population is lenient to maintain a large group of witnesses. Be weary of the man in the coat, he may arrive when its time to complete this investigation.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VSE_PerryPersistent"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Consistent</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>

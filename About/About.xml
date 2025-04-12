@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>Progression: Storytellers</name>
+  <author>ferny</author>
+  <packageId>ferny.ProgressionStorytellers</packageId>
+  <description>Integrate many storytellers in modded Rimworld.</description>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>brrainz.harmony</li>
+		<li>VanillaExpanded.VPsycastsE</li>
+		<li>OskarPotocki.VFE.Pirates</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
+		<li>OskarPotocki.VFE.Empire</li>
+		<li>kentington.saveourship2</li>
+		<li>OskarPotocki.VFE.Deserters</li>
+		<li>OskarPotocki.VFE.Tribals</li>
+		<li>VSE.PerryPersistent</li>
+		<li>oskarpotocki.vfe.insectoid2</li>
+		<li>vanillastorytellersexpanded.winstonwave</li>
+		<li>ferny.FernyFranticProgressionStorytellers</li>
+		<li>ve.vanillachristmasexpanded</li>
+		<li>gold.ultimatestoryteller</li>
+		<li>zal.deathlessdaji</li>
+		<li>zal.jianghujin</li>
+		<li>rimsenal.storyteller</li>
+		<li>tvg.randy.ransolo</li>
+		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>zal.farseerfan</li>
+		<li>erin.storyteller</li>
+	</loadAfter>
+</ModMetaData>

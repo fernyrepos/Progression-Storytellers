@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProgressionStorytellers\1.5\Assemblies\ProgressionStorytellers.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProgressionStorytellers\1.5\Source\obj\Debug\ProgressionStorytellers.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProgressionStorytellers\1.5\Source\obj\Debug\ProgressionStorytellers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProgressionStorytellers\1.5\Source\obj\Debug\ProgressionStorytellers.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProgressionStorytellers\1.5\Source\obj\Debug\ProgressionStorytellers.dll

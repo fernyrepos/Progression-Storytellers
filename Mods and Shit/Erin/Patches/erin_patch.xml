@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="EE_ErinEccentric"]/description</xpath>
+        <value>
+            <description>Erin Eccentric thinks the best way to enjoy stories is with an animal friend by your side! A liberated highmate turned archotech, she believes life on the Rim can be tough so she'll occasionally soothe the aftermath of a raid or death with a new furry companion. Small animals will sometimes migrate over too! She will often spice things up with more random events while keeping insect infestations less frequent.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="EE_ErinEccentric"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Chaotic</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>

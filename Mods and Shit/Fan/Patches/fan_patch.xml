@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="FarseerFan_Yaoma"]/label</xpath>
+        <value>
+            <label>Fan Farseer</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="FarseerFan_Yaoma"]/description</xpath>
+        <value>
+            <description>Fan Farseer will grant you visions of the future to come: you'll know what incidents will occur in advance. In exchange, she only asks to challenge you, increasing the difficulty of negative events as well as the frequency of incidents in general. Such is the price of knowing capricious fate, as the stars decreed.</description>
+        </value>
+    </Operation>
+</Patch>

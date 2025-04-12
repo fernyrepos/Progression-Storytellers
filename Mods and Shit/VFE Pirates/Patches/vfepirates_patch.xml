@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFEP_Casper"]/description</xpath>
+        <value>
+            <description>Casper has been travelling the known space for years, telling shanties of random events with no rhyme or reason. He is cursed, and the best way to lift off a curse is to beckon it onto others.\n\nThe more curses you take upon yourself, the more Casper will reward you. Be warned. Each curse makes your story more challenging with unique drawbacks.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFEP_Casper"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Chaotic</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>

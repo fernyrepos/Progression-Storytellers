@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="DeathlessDaji_Yaoma"]/label</xpath>
+        <value>
+            <label>Daji Deathless</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="DeathlessDaji_Yaoma"]/description</xpath>
+        <value>
+            <description>Daji will resurrect all corpses at the end of the day- why should death be the end of all things? Her arcane service isn’t riskless, however. Each resurrection she performs rots revived pawns with the dreaded Crimson Psychosis, maiming their mental stability. At full mind-blight, they’ll become a berserk husk for eternity.\n\nBeyond that, Daji is a fervent believer of living in the moment, throwing in whatever event catches her fancy.</description>
+        </value>
+    </Operation>
+</Patch>

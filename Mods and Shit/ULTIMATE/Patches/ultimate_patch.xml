@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="UltimateStoryteller"]/description</xpath>
+        <value>
+            <description>ULTIMATE is a massively malfunctioned Archotech, derived from combining the personality cores of other storytellers. It uses all the tricks in the book, being unpredictable like Randy but keeping you under pressure like Cassandra. Even Perry's frequent quests and traders permeate the rogue AI's sporadic decisions.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="UltimateStoryteller"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Bizarre</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>
+

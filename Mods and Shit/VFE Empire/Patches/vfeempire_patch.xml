@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFEE_AriadneArchduchess"]/description</xpath>
+        <value>
+            <description>Ariadne got tired of the unpredictability of the nobility, and whilst she will create a story of increasing tension, she knows it’s not fun to kick someone while they’re down.\n\nBad events will occur each time Ariadne sees your wealth go up by 5k. For instance, a colony worth 100k will have had 20 bad events.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFEE_AriadneArchduchess"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Consistent</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>

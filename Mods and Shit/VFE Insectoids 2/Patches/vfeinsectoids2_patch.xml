@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFEI_HanHordeMode"]/label</xpath>
+        <value>
+            <label>Hansel Hordes</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFEI_HanHordeMode"]/description</xpath>
+        <value>
+            <description>Hansel has served numerous tours on Sorne and cannot imagine a life without a worthy adversary. The insectoid waves will follow a regular pattern of low-to-high activity, and each defeated wave will reward you with research progression.\n\nAn intense horde mode.</description>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFEI_EmpressEvil"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Brutal</category>
+			</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFEI_HanHordeMode"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Bizarre</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>
+

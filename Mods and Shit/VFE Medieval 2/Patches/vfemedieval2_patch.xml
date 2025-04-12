@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFEM_MaynardMedieval"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Chaotic</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>
+

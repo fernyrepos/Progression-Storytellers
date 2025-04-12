@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Kim"]/description</xpath>
+        <value>
+            <description>Kim sees a special destiny for your colonists - perhaps to follow in her footsteps. She's less likely to harm colonists who have been in the story for years, and more likely to test newcomers with colonist-specific negative events.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Kim"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Engaging</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>

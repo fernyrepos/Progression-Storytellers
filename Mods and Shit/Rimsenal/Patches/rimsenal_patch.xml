@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Accipiter"]</xpath>
+        <value>
+        <li Class="ProgressionStorytellers.StorytellerExtension">
+            <category>Engaging</category>
+        </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Sereniz"]</xpath>
+        <value>
+        <li Class="ProgressionStorytellers.StorytellerExtension">
+            <category>Chaotic</category>
+        </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="Hildegarde"]</xpath>
+        <value>
+        <li Class="ProgressionStorytellers.StorytellerExtension">
+            <category>Chaotic</category>
+        </li>
+        </value>
+    </Operation>
+</Patch>

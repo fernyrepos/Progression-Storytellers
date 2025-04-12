@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFET_TalonTribal"]/description</xpath>
+        <value>
+            <description>Talon shuns technology and progress. Real strength lies in cultural foundations, and only by rejecting rapid progress will you be able to gain the respect of the spirits. Rapid technology unlocks will invoke bad events.\n\nIf you complete research projects more than twice in a four day period, Talon will retaliate with negative events.</description>
+        </value>
+    </Operation>
+</Patch>

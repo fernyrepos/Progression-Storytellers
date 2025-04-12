@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="JianghuJin_Yaoma"]/label</xpath>
+        <value>
+            <label>Taylin Terrain</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="JianghuJin_Yaoma"]/description</xpath>
+        <value>
+            <description>Taylin knows the marvels of many natural landscapes. At regular intervals, she will transform the environment, while respecting any area in range of a stabilizer in the form of either a buildable totem or a rare array. In addition, she will provide a boon to construction and mining speed. However, outdoor regions and indoor zones beyond a stabilizer’s range will be altered and damaged, respectively. She does not concern herself with tampering with chance otherwise.</description>
+        </value>
+    </Operation>
+</Patch>

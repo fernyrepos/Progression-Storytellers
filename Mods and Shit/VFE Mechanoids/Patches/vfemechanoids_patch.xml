@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="VFEMech-IgorInvader"]/description</xpath>
+        <value>
+            <description>Igor holds no regard for boring stories about thriving colonies. The only story worth telling is one of combat. He will send raids every two or three days. All damage is doubled, and enemies will send reinforcements when colonists are lost.\n\nHowever, Igor is a fair combatant. He warns you about upcoming raids 12 hours before they happen, and rewards you with good events after swift raid defense.</description>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/StorytellerDef[defName="VFEMech-IgorInvader"]</xpath>
+        <value>
+			<li Class="ProgressionStorytellers.StorytellerExtension">
+				<category>Brutal</category>
+			</li>
+        </value>
+    </Operation>
+</Patch>
