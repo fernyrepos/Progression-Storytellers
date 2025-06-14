@@ -25,4 +25,31 @@
     <li IfModActive="zal.farseerfan">Mods and Shit/Fan</li>
     <li IfModActive="erin.storyteller">Mods and Shit/Erin</li>
   </v1.5>
+
+  <v1.6>
+    <li>/</li>
+    <li>1.5</li>
+    <li IfModActive="OskarPotocki.VFE.Mechanoid">Mods and Shit/VFE Mechanoids</li>
+    <li IfModActive="VanillaExpanded.VPsycastsE">Mods and Shit/VE Psycasts</li>
+    <li IfModActive="OskarPotocki.VFE.Pirates">Mods and Shit/VFE Pirates</li>
+    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Mods and Shit/VFE Settlers</li>
+    <li IfModActive="OskarPotocki.VFE.Empire">Mods and Shit/VFE Empire</li>
+    <li IfModActive="kentington.saveourship2">Mods and Shit/SOS2</li>
+    <li IfModActive="OskarPotocki.VFE.Deserters">Mods and Shit/VFE Deserters</li>
+    <li IfModActive="OskarPotocki.VFE.Tribals">Mods and Shit/VFE Tribals</li>
+    <li IfModActive="VSE.PerryPersistent">Mods and Shit/VSE Perry Persistent</li>
+    <li IfModActive="oskarpotocki.vfe.insectoid2">Mods and Shit/VFE Insectoids 2</li>
+    <li IfModActive="oskarpotocki.vfe.classical">Mods and Shit/VFE Classical</li>
+    <li IfModActive="vanillastorytellersexpanded.winstonwave">Mods and Shit/VSE Winston Waves</li>
+    <li IfModActive="ferny.FernyFranticProgressionStorytellers">Mods and Shit/Ferny</li>
+    <li IfModActive="ve.vanillachristmasexpanded">Mods and Shit/VE Christmas</li>
+    <li IfModActive="gold.ultimatestoryteller">Mods and Shit/ULTIMATE</li>
+    <li IfModActive="zal.deathlessdaji">Mods and Shit/Daji</li>
+    <li IfModActive="zal.jianghujin">Mods and Shit/Jin</li>
+    <li IfModActive="rimsenal.storyteller">Mods and Shit/Rimsenal</li>
+    <li IfModActive="tvg.randy.ransolo">Mods and Shit/Ransolo</li>
+    <li IfModActive="OskarPotocki.VFE.Medieval2">Mods and Shit/VFE Medieval 2</li>
+    <li IfModActive="zal.farseerfan">Mods and Shit/Fan</li>
+    <li IfModActive="erin.storyteller">Mods and Shit/Erin</li>
+  </v1.6>
 </loadFolders>

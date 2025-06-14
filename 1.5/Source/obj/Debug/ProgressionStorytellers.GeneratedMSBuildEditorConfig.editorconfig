@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = ProgressionStorytellers
-build_property.ProjectDir = c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ProgressionStorytellers\1.5\Source\
+build_property.ProjectDir = c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Progression-Storytellers\1.5\Source\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
