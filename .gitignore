@@ -1,0 +1,7 @@
+﻿# Exclude   "obj" folders in source folder
+1.5/source/obj/
+1.6/source/obj/
+
+# Exclude everything .vs folders anywhere in the project
+**/.vs/
+**/.vscode/
