@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Page Title -->
+	<ProgressionStorytellers.PageTitle>What kind of story would interest you?</ProgressionStorytellers.PageTitle>
+
+	<!-- Category -->
+	<ProgressionStorytellers.Category.SlowPaced>Slow-paced</ProgressionStorytellers.Category.SlowPaced>
+	<ProgressionStorytellers.Category.Engaging>Engaging</ProgressionStorytellers.Category.Engaging>
+	<ProgressionStorytellers.Category.Chaotic>Chaotic</ProgressionStorytellers.Category.Chaotic>
+	<ProgressionStorytellers.Category.Consistent>Consistent</ProgressionStorytellers.Category.Consistent>
+	<ProgressionStorytellers.Category.Brutal>Brutal</ProgressionStorytellers.Category.Brutal>
+	<ProgressionStorytellers.Category.Bizarre>Bizarre</ProgressionStorytellers.Category.Bizarre>
+
+	<!-- Category description -->
+	<ProgressionStorytellers.Category.SlowPaced.Description>A story that lets you relax between major events.</ProgressionStorytellers.Category.SlowPaced.Description>
+	<ProgressionStorytellers.Category.Engaging.Description>A story with present momentum, adjusting to your highs and lows.</ProgressionStorytellers.Category.Engaging.Description>
+	<ProgressionStorytellers.Category.Chaotic.Description>A story with no regard for consistency, utter chaos.</ProgressionStorytellers.Category.Chaotic.Description>
+	<ProgressionStorytellers.Category.Consistent.Description>A story with predictable rates of events and triggers.</ProgressionStorytellers.Category.Consistent.Description>
+	<ProgressionStorytellers.Category.Brutal.Description>A bloody test of patience, skill, and strategy.</ProgressionStorytellers.Category.Brutal.Description>
+	<ProgressionStorytellers.Category.Bizarre.Description>Stories told in new formats, often feeling completely new.</ProgressionStorytellers.Category.Bizarre.Description>
+
+	<!-- Error -->
+	<ProgressionStorytellers.NoStorytellersInCategory>There are no available storytellers in that category.</ProgressionStorytellers.NoStorytellersInCategory>
+</LanguageData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Заголовок страницы -->
+	<ProgressionStorytellers.PageTitle>Какую историю вы хотите?</ProgressionStorytellers.PageTitle>
+
+	<!-- Категории -->
+	<ProgressionStorytellers.Category.SlowPaced>Неторопливая</ProgressionStorytellers.Category.SlowPaced>
+	<ProgressionStorytellers.Category.Engaging>Захватывающая</ProgressionStorytellers.Category.Engaging>
+	<ProgressionStorytellers.Category.Chaotic>Хаотичная</ProgressionStorytellers.Category.Chaotic>
+	<ProgressionStorytellers.Category.Consistent>Последовательная</ProgressionStorytellers.Category.Consistent>
+	<ProgressionStorytellers.Category.Brutal>Безжалостная</ProgressionStorytellers.Category.Brutal>
+	<ProgressionStorytellers.Category.Bizarre>Причудливая</ProgressionStorytellers.Category.Bizarre>
+
+	<!-- Описания категорий -->
+	<ProgressionStorytellers.Category.SlowPaced.Description>История, которая позволяет расслабиться между важными событиями.</ProgressionStorytellers.Category.SlowPaced.Description>
+	<ProgressionStorytellers.Category.Engaging.Description>История развития, адаптирующаяся к вашим успехам и неудачам.</ProgressionStorytellers.Category.Engaging.Description>
+	<ProgressionStorytellers.Category.Chaotic.Description>История без правил и последовательности, полный хаос.</ProgressionStorytellers.Category.Chaotic.Description>
+	<ProgressionStorytellers.Category.Consistent.Description>История с предсказуемыми событиями и триггерами.</ProgressionStorytellers.Category.Consistent.Description>
+	<ProgressionStorytellers.Category.Brutal.Description>Кровавое испытание терпения, навыков и стратегии.</ProgressionStorytellers.Category.Brutal.Description>
+	<ProgressionStorytellers.Category.Bizarre.Description>Истории, рассказанные в новых форматах, часто ощущающиеся совершенно новыми.</ProgressionStorytellers.Category.Bizarre.Description>
+
+	<!-- Сообщения об ошибках -->
+	<ProgressionStorytellers.NoStorytellersInCategory>В этой категории нет доступных рассказчиков.</ProgressionStorytellers.NoStorytellersInCategory>
+</LanguageData>
