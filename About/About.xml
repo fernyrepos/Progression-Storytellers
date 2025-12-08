@@ -9,7 +9,7 @@
 		<li>1.6</li>
 	</supportedVersions>
 	<incompatibleWith>
-		<li>ferny.ProgressionStorytellers.plastmastick_fork</li>
+		<li>ferny.ProgressionStorytellers.plastmastick.fork</li>
 	</incompatibleWith>
 	<modDependencies>
 		<li>
