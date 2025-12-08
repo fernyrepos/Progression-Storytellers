@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ModMetaData>
-  <name>Progression: Storytellers [RUS]</name>
-  <author>ferny | plastmastick</author>
-  <packageId>ferny.ProgressionStorytellers.rus</packageId>
-  <description>Integrate many storytellers in modded Rimworld. Include Russian and English Translation for 1.6 </description>
-  <supportedVersions>
-    <li>1.5</li>
-	<li>1.6</li>
-  </supportedVersions>
+	<name>Progression: Storytellers [RUS]</name>
+	<author>ferny | plastmastick</author>
+	<packageId>ferny.ProgressionStorytellers.rus</packageId>
+	<description>Integrate many storytellers in modded Rimworld. Include Russian and English Translation for 1.6 </description>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<incompatibleWith>
+		<li>ferny.ProgressionStorytellers</li>
+	</incompatibleWith>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
